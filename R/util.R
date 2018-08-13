@@ -45,7 +45,7 @@ positions_corrector <- function(positions, group_header_rows, n_row) {
 }
 
 latex_row_cells <- function(x) {
-  strsplit(x, " \\& ")
+  strsplit(x, " \\&")
 }
 
 regex_escape <- function(x, double_backslash = FALSE) {
